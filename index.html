@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> H5P Standalone on GitHub Pages </title>
+  <link type="text/css" rel="stylesheet" media="all" href="./dist/styles/h5p.css" />
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="./dist/main.bundle.js"></script>
+</head>
+
+<body>
+  <div id="h5p-container-1"></div>
+  <div id="h5p-container-2"></div>
+  <script type="text/javascript">
+    const {
+      H5P
+    } = H5PStandalone;
+    const player1Options = {
+      h5pJsonPath: '/h5p-folder/example-1',
+      frameJs: '/assets/frame.bundle.js',
+      frameCss: '/assets/styles/h5p.css',
+    };
+    const player2Options = {
+      h5pJsonPath: '/h5p-folder/example-2',
+      frameJs: '/assets/frame.bundle.js',
+      frameCss: '/assets/styles/h5p.css',
+    };
+    // OR (async wrapper function removed for readability)
+    await new H5P(document.getElementById('h5p-container-1'), player1Options);
+    await new H5P(document.getElementById('h5p-container-2'), player2Options);
+  </script>
+</body>
+
+</html>

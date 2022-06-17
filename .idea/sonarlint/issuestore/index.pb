@@ -5,5 +5,3 @@ I
 dist/styles/h5p-admin.css,f\1\f1c3df12d4e7757538a7e449fa4e174714e4373c
 W
 'dist/styles/h5p-confirmation-dialog.css,7\a\7a988f554af683b9768a1b77abf4a04337498810
-C
-dist/styles/h5p.css,d\0\d0a07b6d59c0a25eb1b331cf23dcc69283631dbd

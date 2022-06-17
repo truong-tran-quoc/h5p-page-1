@@ -18,10 +18,7 @@
       frameJs: "./dist/frame.bundle.js",
       frameCss: "./dist/styles/h5p.css",
     };
-    const {
-      H5P
-    } = H5PStandalone;
-    new H5P(el, options).then(function () {
+    new H5PStandalone.H5P(el, options).then(function () {
       H5P.externalDispatcher.on("xAPI", (event) => {
         //do something useful with the event
         console.log("xAPI event: ", event);

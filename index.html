@@ -19,9 +19,8 @@
       frameCss: "./dist/styles/h5p.css",
     };
     new H5PStandalone.H5P(el, options).then(function () {
-      H5P.externalDispatcher.on("xAPI", (event) => {
-        //do something useful with the event
-        console.log("xAPI event: ", event);
+      H5P.externalDispatcher.on('xAPI', function (event) {
+        console.log(event.data.statement);
       });
     });
   </script>

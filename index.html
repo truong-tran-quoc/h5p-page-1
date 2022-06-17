@@ -11,13 +11,12 @@
 <body>
   <div id="h5p-container"></div>
   <script type="text/javascript">
-    const {
-      H5P
-    } = H5PStandalone;
-    new H5P(document.getElementById('h5p-container'),  {
-      h5pJsonPath: 'h5p-folder',
-      frameJs: './dist/frame.bundle.js',
-      frameCss: './dist/styles/h5p.css'
+    const el = document.getElementById("h5p-container");
+    new H5PStandalone.H5P(el, options).then(function () {
+      H5P.externalDispatcher.on("xAPI", (event) => {
+        //do something useful with the event
+        console.log("xAPI event: ", event);
+      });
     });
   </script>
 </body>

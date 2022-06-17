@@ -12,8 +12,13 @@
   <div id="h5p-container"></div>
   <script type="text/javascript">
     const el = document.getElementById("h5p-container");
+    const options = {
+      h5pJsonPath: "/h5p-folder",
+      frameJs: "/dist/frame.bundle.js",
+      frameCss: "/dist/styles/h5p.css",
+    };
     new H5PStandalone.H5P(el, options).then(function () {
-      H5P.EventDispatcher.on("xAPI", (event) => {
+      H5P.externalDispatcher.on("xAPI", (event) => {
         //do something useful with the event
         console.log("xAPI event: ", event);
       });

@@ -146,7 +146,7 @@ H5P.QuestionSet = function (options, contentId, contentData) {
   var initialParams = $.extend(true, {}, defaults, options);
   var poolOrder; // Order of questions in a pool
   var currentQuestion = 0;
-  var questionInstances = [];
+
   var questionOrder; //Stores order of questions to allow resuming of question set
   var $myDom;
   var scoreBar;

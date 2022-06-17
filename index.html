@@ -20,7 +20,7 @@
     };
     new H5PStandalone.H5P(el, options).then(function () {
       H5P.externalDispatcher.on('xAPI', function (event) {
-        console.log(event.data.statement);
+        console.log(event.data.statement.verb);
       });
     });
   </script>

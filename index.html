@@ -17,6 +17,7 @@
       contentJsonPath: "h5p-folder/content",
       frameJs: "./dist/frame.bundle.js",
       frameCss: "./dist/styles/h5p.css",
+      customJs: ["./dist/customeJs/h5p-xapi.js","./dist/customeJs/h5p-xapi-events.js"]
     };
     new H5PStandalone.H5P(el, options).then(function () {
       H5P.externalDispatcher.on('xAPI', function (event) {

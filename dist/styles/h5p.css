@@ -146,7 +146,7 @@ div.h5p-fullscreen {
   height: 100%;
 }
 .h5p-iframe-wrapper {
-  width: auto;
+  width: 50%;
   height: auto;
 }
 

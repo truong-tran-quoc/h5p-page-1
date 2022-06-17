@@ -1,1 +1,585 @@
-{"l10n":{"slide":"Slide","yourScore":"Your Score","maxScore":"Max Score","showSolutions":"Sum up","exportAnswers":"Export text","fullscreen":"fullscreen","exitFullscreen":"Exit fullscreen","prevSlide":"Previous slide","nextSlide":"Next slide","currentSlide":"Current slide","lastSlide":"Last slide","solutionModeTitle":"Exit solution mode","solutionModeText":"Solution Mode:","summaryMultipleTaskText":"Text when multiple tasks on a page","scoreMessage":"You achieved:","shareFacebook":"Share on Facebook","shareTwitter":"Share on Twitter","score":"Score","total":"Total","totalScore":"Total Score","retry":"Retry","hideKeywords":"Hide keywords list","showKeywords":"Show keywords list","shareGoogle":"Share on Google+","summary":"Summary","solutionsButtonTitle":"Show comments","printTitle":"Print","printIngress":"How would you like to print this presentation?","printAllSlides":"Print all slides","printCurrentSlide":"Print current slide","noTitle":"No title","accessibilitySlideNavigationExplanation":"Use left and right arrow to change slide in that direction whenever canvas is selected.","accessibilityCanvasLabel":"Presentation canvas. Use left and right arrow to move between slides.","containsNotCompleted":"@slideName contains not completed interaction","containsCompleted":"@slideName contains completed interaction","slideCount":"Slide @index of @total","containsOnlyCorrect":"@slideName only has correct answers","containsIncorrectAnswers":"@slideName has incorrect answers","shareResult":"Share Result","accessibilityTotalScore":"You got @score of @maxScore points in total"},"override":{"showSolutionButton":"on","retryButton":"on","enablePrintButton":true,"activeSurface":false,"hideSummarySlide":false,"social":{"showFacebookShare":false,"facebookShare":{"url":"@currentpageurl","quote":"I scored @score out of @maxScore on a task at @currentpageurl."},"showTwitterShare":false,"twitterShare":{"statement":"I scored @score out of @maxScore on a task at @currentpageurl.","url":"@currentpageurl","hashtags":"h5p, course"},"showGoogleShare":false,"googleShareUrl":"@currentpageurl"}},"presentation":{"slides":[{"elements":[{"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-535657e79c0c5.jpg","mime":"image\/jpeg","width":450,"height":600,"copyright":{"license":"U"}},"alt":"Cloudberry flower image","title":"Cloudberry flower"},"subContentId":"c6a6305e-867e-474a-8695-9a8b2cfe74ab","metadata":{"title":"Rubus chamaemorus LC0151.jpg","authors":[{"name":"J\u00f6rg Hempel","role":"Author"}],"source":"http:\/\/en.wikipedia.org\/wiki\/File:Rubus_chamaemorus_LC0151.jpg","license":"CC BY-SA","contentType":"Image","licenseVersion":"4.0"}},"x":32.527881040892,"y":2.5252525252525,"width":23.896375464684,"height":57.828282828283,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false},{"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-5356580aed5c6.jpg","mime":"image\/jpeg","width":320,"height":240,"copyright":{"license":"U"}},"alt":"Cloudberry image","title":"Cloudberry"},"subContentId":"576f2d24-5dff-424e-bd77-285429723b20","metadata":{"title":"Cloudberries.jpg","authors":[{"name":"Littleisland lighthouse, Bj\u00f8rn Tenn\u00f8e","role":"Author"}],"source":"http:\/\/en.wikipedia.org\/wiki\/File:Cloudberries.jpg","license":"CC BY-SA","contentType":"Image","licenseVersion":"4.0"}},"x":32.527881040892,"y":63.131313131313,"width":23.896375464684,"height":33.585858585859,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false},{"action":{"library":"H5P.AdvancedText 1.1","params":{"text":"<ul>\n\t<li>\n\t<p>The&nbsp;<em>Rubus chamaemorus<\/em>&nbsp;is a herb producing&nbsp;amber-colored edible fruit similar to the raspberry or blackberry.<\/p>\n\t<\/li>\n\t<li>\n\t<p>The cloudberry grows to 10\u201325 cm high.<\/p>\n\t<\/li>\n\t<li>\n\t<p>The leaves alternate between having 5 and 7 soft, handlike lobes on straight, branchless stalks.<\/p>\n\t<\/li>\n\t<li>\n\t<p>After pollination, the white flowers form raspberry-sized berries.<\/p>\n\t<\/li>\n\t<li>\n\t<p>Each fruit is initially pale red, ripening into an amber color in early autumn.<\/p>\n\t<\/li>\n<\/ul>\n"},"subContentId":"cf53e8c1-0fa8-4fd5-9010-93b7794646dd","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"x":56.807620817844,"y":0,"width":38.929466848214,"height":94.919981108771,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false}],"keywords":[{"main":"Cloudberries"}],"slideBackgroundSelector":{"fillSlideBackground":"#e8e6e7"}},{"elements":[{"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-53565a398ced6.png","mime":"image\/png","width":1425,"height":625,"copyright":{"license":"U"}},"alt":"Map","title":"Map"},"subContentId":"b2d37831-c238-4c44-a5f0-d2f6ca08f0ee","metadata":{"title":"Cloudberry_distrib.png","authors":[{"name":"Vzb83","role":"Author"}],"source":"http:\/\/en.wikipedia.org\/wiki\/File:Cloudberry_distrib.png","license":"CC BY-SA","contentType":"Image","licenseVersion":"4.0"}},"x":32.679738562092,"y":2.1505376344086,"width":62.962962962963,"height":50.10752688172,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false},{"action":{"library":"H5P.AdvancedText 1.1","params":{"text":"<p>Cloudberries are found in mountainous areas on the Northern Hemisphere:<\/p>\n\n<ul>\n\t<li>\n\t<p>Europe: In the Nordic countries and the Baltic states<\/p>\n\t<\/li>\n\t<li>\n\t<p>Asia: Across northern Russia east towards the Pacific Ocean<\/p>\n\t<\/li>\n\t<li>\n\t<p>North America: across most of northern Canada, Alaska, northern Minnesota, New Hampshire and Maine<\/p>\n\t<\/li>\n<\/ul>\n"},"subContentId":"d195258e-eec1-4baa-afa3-4b98107db8e9","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"x":32.679738562092,"y":55.489892473118,"width":67.429193899782,"height":42.795698924731,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false}],"keywords":[{"main":"Where to find them?"}],"slideBackgroundSelector":{"fillSlideBackground":"#e8e6e7"}},{"elements":[{"action":{"library":"H5P.AdvancedText 1.1","params":{"text":"<ul>\n\t<li>\n\t<p>In Finland, the berries are eaten with heated,&nbsp;local cheese<\/p>\n\t<\/li>\n\t<li>\n\t<p>In Sweden, cloudberry jam is used as a topping for ice cream, pancakes, and waffles<\/p>\n\t<\/li>\n\t<li>\n\t<p>In Norway, they are often mixed with whipped cream and sugar<\/p>\n\t<\/li>\n\t<li>\n\t<p>In Atlantic Canada, cloudberries are used to make \"Bakeapple Pie\".<\/p>\n\t<\/li>\n\t<li>\n\t<p>In Alaska and Northern Canada, the berries are mixed with seal oil, reindeer or caribou fat, and sugar to make \"Eskimo Ice Cream\" or Akutaq.<\/p>\n\t<\/li>\n<\/ul>\n"},"subContentId":"114ac5ab-c15d-4ead-9f43-887b1a48b77b","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"x":52.973977695167,"y":0,"width":44.552143428139,"height":88.354324543115,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false},{"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-53565d5505b52.jpg","mime":"image\/jpeg","width":640,"height":480,"copyright":{"license":"U"}},"alt":"Finnish cloudberry dish image","title":"Finnish cloudberry dish"},"subContentId":"30bdc2d5-5ca6-43a1-9f01-f7efae2d229c","metadata":{"title":"Leip\u00e4juusto cheese with cloudberry jam.jpg","authors":[{"name":"Teemu Rajala","role":"Author"}],"source":"http:\/\/commons.wikimedia.org\/wiki\/File:Leip%C3%A4juusto_cheese_with_cloudberry_jam.jpg","license":"CC BY-SA","contentType":"Image","licenseVersion":"4.0"}},"x":32.527881040892,"y":2.5252525252525,"width":20.318308550186,"height":31.565656565657,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false},{"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-53565d6849961.jpg","mime":"image\/jpeg","width":640,"height":428,"copyright":{"license":"U"}},"alt":"Cloudberry jam image","title":"Cloudberry jam"},"subContentId":"3cfc9c7c-5eb0-48bb-b03c-ce25b206566b","metadata":{"title":"Homemade_cloudberry_jam.jpg","authors":[{"name":"Ankara","role":"Author"}],"source":"http:\/\/commons.wikimedia.org\/wiki\/File:Homemade_cloudberry_jam.jpg","license":"CC BY-SA","contentType":"Image","licenseVersion":"4.0"}},"x":32.527881040892,"y":37.878787878788,"width":20.318308550186,"height":29.79797979798,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false},{"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-53565db3e27f6.jpg","mime":"image\/jpeg","width":800,"height":537,"copyright":{"license":"U"}},"alt":"Cloudberries on oatmeal image","title":"Cloudberries on oatmeal"},"subContentId":"cb48e48c-ecb5-492a-9ec0-5ea31be5a634","metadata":{"title":"Swedish_cuisine-Oatmeal_with_cloudberry.jpg","authors":[{"name":"by oskarlin","role":"Author"}],"source":"http:\/\/commons.wikimedia.org\/wiki\/File:Swedish_cuisine-Oatmeal_with_cloudberry.jpg","license":"CC BY-SA","contentType":"Image","licenseVersion":"4.0"}},"x":32.527881040892,"y":70.707070707071,"width":20.573884758364,"height":25.252525252525,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false},{"action":{"library":"H5P.Link 1.3","params":{"title":"Find recipes here!","linkWidget":{"url":"www.yummly.com\/recipes\/cloudberry-dessert","protocol":"http:\/\/"}},"subContentId":"08ac6b73-62ae-42ef-8518-bcb27cb761a1","metadata":{"contentType":"Link","license":"U"}},"x":56.807620817844,"y":90.909090909091,"width":27.73001858736,"height":7.5757575757576,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false}],"keywords":[{"main":"Uses"}],"slideBackgroundSelector":{"fillSlideBackground":"#e8e6e7"}},{"elements":[{"action":{"library":"H5P.Summary 1.10","params":{"intro":"<p>Choose the correct statement about Cloudberries.<\/p>\n","summaries":[{"summary":["<p>Cloudberries are similar in shape and size to raspberries and blackberries.<\/p>\n","<p>Cloudberries are similar in shape and size to blueberries and redcurrants.<\/p>\n","<p>Cloudberries are similar in shape and size to strawberries.<\/p>\n"],"subContentId":"84518747-0f0a-4e31-b2dd-8d55c332fee7","tip":""},{"summary":["<p>Cloudberries are found in the Northern Hemisphere.<\/p>\n","<p>Cloudberries are found in the Southern Hemisphere.<\/p>\n"],"subContentId":"dad1a618-c84d-4818-a5ea-6b59a256c3d8","tip":""},{"summary":["<p>In Atlantic Canada, cloudberries are often used to make \"Bakeapple pie\".<\/p>\n","<p>In Atlantic Canada, cloudberries are mainly eaten with a heated local cheese.<\/p>\n","<p>In Atlantic Canada, cloudberries are mainly eaten with a heated local cheese.<\/p>\n"],"subContentId":"3c031c22-4ae0-4552-ab11-6f3cba5cf806","tip":""}],"solvedLabel":"Progress:","scoreLabel":"Wrong answers:","resultLabel":"Your result","overallFeedback":[{"from":0,"to":100,"feedback":"You got @score of @total statements (@percent %) correct."}],"labelCorrect":"Correct.","labelIncorrect":"Incorrect! Please try again.","labelCorrectAnswers":"Correct answers.","tipButtonLabel":"Show tip","scoreBarLabel":"You got :num out of :total points","progressText":"Progress :num of :total"},"subContentId":"e1b39af0-7dbb-4dc4-b1e3-ae67b1ea1885","metadata":{"title":"Choose the correct statement about Cloudberries.","license":"U","contentType":"Summary"}},"x":34.858387799564,"y":2.5209032258065,"width":61.9825708061,"height":89.89247311828,"alwaysDisplayComments":false,"backgroundOpacity":0,"displayAsButton":false,"solution":"","buttonSize":"big","goToSlideType":"specified","invisible":false}],"keywords":[{"main":"Summary"}],"slideBackgroundSelector":{"fillSlideBackground":"#e8e6e7"}}],"keywordListEnabled":true,"keywordListAlwaysShow":true,"keywordListAutoHide":false,"keywordListOpacity":90,"globalBackgroundSelector":{}}}
+{
+  "progressType": "dots",
+  "passPercentage": 50,
+  "questions": [
+    {
+      "params": {
+        "answers": [
+          {
+            "correct": true,
+            "text": "<div>Blueberry<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "correct": true,
+            "text": "<div>Raspberry<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "correct": true,
+            "text": "<div>Cloudberry<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "correct": false,
+            "text": "<div>Halle Berry<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "correct": false,
+            "text": "<div>Cocktail cherry<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "correct": true,
+            "text": "<div>Strawberry<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "UI": {
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Try again",
+          "checkAnswerButton": "Check",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution"
+        },
+        "question": "<p>Which of the berries listed below&nbsp;are berries you can pick in the wild?<\/p>\n",
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "singlePoint": false,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "type": "auto",
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true,
+          "enableCheckButton": true
+        },
+        "media": {
+          "type": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "contentName": "Image",
+              "alt": "Images of different berries",
+              "file": {
+                "path": "images\/file-5885c0f3dcafc.jpg",
+                "mime": "image\/jpeg",
+                "width": 1588,
+                "height": 458,
+                "copyright": {
+                  "license": "U"
+                }
+              }
+            },
+            "subContentId": "5d791eac-5e66-472a-a7e7-e13f132f7873",
+            "metadata": {
+              "title": "blackberries",
+              "authors": [
+                {
+                  "name": "Gloria Cabada-Leman",
+                  "role": "Author"
+                }
+              ],
+              "source": "https:\/\/www.flickr.com\/photos\/67238971@N04\/6299792743\/in\/photolist-aAG5Ug-dd9xLw-bVqsiX-cJksCw-6kcNtS-5jEMb2-5aJC9S-6Cruws-9LZATE-5ikCY1-9LZAFL-8AxwwV-9XwKxE-fpjPyz-8d1GNx-9LZABd-t28p4-fpjQ3V-bzT5MZ-dVHye1-eeHhvG-ccMGNJ-ccMGPW-f6xAxP-oZzvWs-aed6pq-5srZfB-",
+              "license": "CC BY-ND",
+              "licenseVersion": "4.0",
+              "contentType": "Image"
+            }
+          },
+          "disableImageZooming": true
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 0,
+            "feedback": "Wrong!"
+          },
+          {
+            "from": 1,
+            "to": 99,
+            "feedback": "Almost!"
+          },
+          {
+            "from": 100,
+            "to": 100,
+            "feedback": "Correct!"
+          }
+        ]
+      },
+      "library": "H5P.MultiChoice 1.16",
+      "subContentId": "bd03477a-90a1-486d-890b-0657d6e80ffd",
+      "metadata": {
+        "title": "Which of the berries listed below\u00a0are berries you can pick in the wild?",
+        "license": "U",
+        "contentType": "Multiple Choice"
+      }
+    },
+    {
+      "params": {
+        "scoreShow": "Show score",
+        "question": {
+          "settings": {
+            "size": {
+              "width": 1090,
+              "height": 472
+            },
+            "background": {
+              "path": "images\/background-56682d8e2abf0.jpg",
+              "mime": "image\/jpeg",
+              "copyright": {
+                "license": "U"
+              },
+              "width": 1090,
+              "height": 472
+            }
+          },
+          "task": {
+            "elements": [
+              {
+                "type": {
+                  "library": "H5P.Image 1.1",
+                  "params": {
+                    "contentName": "Image",
+                    "alt": "A blue berry",
+                    "title": "Place me",
+                    "file": {
+                      "path": "images\/file-53e9e93d83631.jpg",
+                      "mime": "image\/jpeg",
+                      "width": 300,
+                      "height": 200
+                    }
+                  },
+                  "subContentId": "9b22f357-a374-412f-b5b8-7bc031484d5a",
+                  "metadata": {
+                    "title": "blueberry.jpg",
+                    "authors": [
+                      {
+                        "name": "Frode Petterson",
+                        "role": "Author"
+                      }
+                    ],
+                    "source": "http:\/\/h5p.org",
+                    "license": "CC BY-SA",
+                    "licenseVersion": "4.0"
+                  }
+                },
+                "x": 2.8985507246377,
+                "y": 56.85618729097,
+                "width": 13.518713715888,
+                "height": 8.8859049800561,
+                "dropZones": [
+                  "0",
+                  "1",
+                  "2"
+                ],
+                "backgroundOpacity": 100,
+                "multiple": false
+              },
+              {
+                "type": {
+                  "library": "H5P.Image 1.1",
+                  "params": {
+                    "contentName": "Image",
+                    "alt": "An orange berry",
+                    "title": "Place me",
+                    "file": {
+                      "path": "images\/file-53e9e95b0e29c.jpg",
+                      "mime": "image\/jpeg",
+                      "width": 300,
+                      "height": 200
+                    }
+                  },
+                  "subContentId": "148a2387-da23-4c35-9ab0-6a40d4478d1a",
+                  "metadata": {
+                    "title": "cloudberry.jpg",
+                    "authors": [
+                      {
+                        "name": "Frode Petterson",
+                        "role": "Author"
+                      }
+                    ],
+                    "source": "http:\/\/h5p.org",
+                    "license": "CC BY-SA",
+                    "licenseVersion": "4.0"
+                  }
+                },
+                "x": 69.565217391304,
+                "y": 56.85618729097,
+                "width": 13.822518857865,
+                "height": 8.8859049800561,
+                "dropZones": [
+                  "0",
+                  "1",
+                  "2"
+                ],
+                "backgroundOpacity": 100,
+                "multiple": false
+              },
+              {
+                "type": {
+                  "library": "H5P.Image 1.1",
+                  "params": {
+                    "contentName": "Image",
+                    "file": {
+                      "path": "images\/file-56682a1e1a718.jpg",
+                      "mime": "image\/jpeg",
+                      "width": 300,
+                      "height": 200
+                    },
+                    "alt": "A red berry",
+                    "title": "Place me"
+                  },
+                  "subContentId": "4d92494c-57fb-4bd3-875e-536cdd67e108",
+                  "metadata": {
+                    "license": "U"
+                  }
+                },
+                "x": 34.782608695652,
+                "y": 56.85618729097,
+                "width": 13.822518857865,
+                "height": 8.8782966707476,
+                "dropZones": [
+                  "0",
+                  "1",
+                  "2"
+                ],
+                "backgroundOpacity": 100,
+                "multiple": false
+              }
+            ],
+            "dropZones": [
+              {
+                "x": 1.4492753623188,
+                "y": 13.377926421405,
+                "width": 16.78448718455,
+                "height": 10.86055053118,
+                "correctElements": [
+                  "1"
+                ],
+                "showLabel": true,
+                "backgroundOpacity": 50,
+                "label": "Cloudberry",
+                "single": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "feedbackOnCorrect": "",
+                  "feedbackOnIncorrect": ""
+                },
+                "autoAlign": false
+              },
+              {
+                "x": 33.333333333333,
+                "y": 13.377926421405,
+                "width": 17.771809960112,
+                "height": 10.86055053118,
+                "correctElements": [
+                  "0"
+                ],
+                "showLabel": true,
+                "backgroundOpacity": 50,
+                "label": "Blueberry",
+                "single": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "feedbackOnCorrect": "",
+                  "feedbackOnIncorrect": ""
+                },
+                "autoAlign": false
+              },
+              {
+                "x": 66.666666666667,
+                "y": 13.377926421405,
+                "width": 18.759132735674,
+                "height": 10.86055053118,
+                "correctElements": [
+                  "2"
+                ],
+                "showLabel": true,
+                "backgroundOpacity": 50,
+                "single": false,
+                "label": "<div>Redcurrant<\/div>\n",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "feedbackOnCorrect": "",
+                  "feedbackOnIncorrect": ""
+                },
+                "autoAlign": false
+              }
+            ]
+          }
+        },
+        "tryAgain": "Try again",
+        "behaviour": {
+          "enableRetry": true,
+          "singlePoint": true,
+          "enableScoreExplanation": true,
+          "applyPenalties": true,
+          "dropZoneHighlighting": "dragging",
+          "autoAlignSpacing": 2,
+          "enableFullScreen": false,
+          "showScorePoints": true,
+          "enableCheckButton": true,
+          "showTitle": true
+        },
+        "scoreExplanation": "Correct answers give +1 point. Incorrect answers give -1 point. The lowest possible score is 0.",
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 100,
+            "feedback": "You got @score of @total points."
+          }
+        ],
+        "localize": {
+          "fullscreen": "Fullscreen",
+          "exitFullscreen": "Exit fullscreen"
+        },
+        "grabbablePrefix": "Grabbable {num} of {total}.",
+        "grabbableSuffix": "Placed in dropzone {num}.",
+        "dropzonePrefix": "Dropzone {num} of {total}.",
+        "noDropzone": "No dropzone.",
+        "tipLabel": "Show tip.",
+        "tipAvailable": "Tip available",
+        "correctAnswer": "Correct answer",
+        "wrongAnswer": "Wrong answer",
+        "feedbackHeader": "Feedback",
+        "scoreBarLabel": "You got :num out of :total points",
+        "scoreExplanationButtonLabel": "Show score explanation"
+      },
+      "library": "H5P.DragQuestion 1.14",
+      "subContentId": "14fcc986-728b-47f3-915b-6db2fc050537",
+      "metadata": {
+        "title": "Drag and drop",
+        "license": "U",
+        "contentType": "Drag and Drop"
+      }
+    },
+    {
+      "params": {
+        "answers": [
+          {
+            "correct": true,
+            "text": "<div>Cranberries<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "correct": false,
+            "text": "<div>Blueberries<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "correct": false,
+            "text": "<div>Blackberries<\/div>\n",
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "UI": {
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Try again",
+          "checkAnswerButton": "Check",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution"
+        },
+        "question": "<p>Which one of the following berries are red?<\/p>\n",
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "singlePoint": true,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "type": "auto",
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true,
+          "enableCheckButton": true
+        },
+        "media": {
+          "type": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "contentName": "Image",
+              "file": {
+                "path": "images\/file-5885c027f0ea9.jpg",
+                "mime": "image\/jpeg",
+                "width": 1588,
+                "height": 458,
+                "copyright": {
+                  "license": "U"
+                }
+              },
+              "alt": "An image of red cranberries"
+            },
+            "subContentId": "1f8a70a2-ba18-4200-9a3b-ea21f01f61a8",
+            "metadata": {
+              "title": "Cranberries",
+              "authors": [
+                {
+                  "name": "Oregon Department of Agriculture",
+                  "role": "Author"
+                }
+              ],
+              "source": "https:\/\/www.flickr.com\/photos\/oragriculture\/15660636885\/in\/photolist-pRSRJM-5eWN9c-dxN4md-7dHjks-aiZuP-aYHrJZ-aYHqBZ-bmCxaT-75sGUv-65ssum-5FxsKL-7u8GL5-xqrWh-buW2mY-d8ajsh-8L1bCm-4d8ca2-3PbHH-Ah5QjR-4aV6C-8KX7EB-sU28V-8KX7Tg-5SZHQf-qL1mMU-dXvFsH-4gbxSt-Ax",
+              "license": "CC BY-ND",
+              "licenseVersion": "4.0",
+              "contentType": "Image"
+            }
+          },
+          "disableImageZooming": true
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 0,
+            "feedback": "Wrong!"
+          },
+          {
+            "from": 1,
+            "to": 99,
+            "feedback": "Almost!"
+          },
+          {
+            "from": 100,
+            "to": 100,
+            "feedback": "Correct!"
+          }
+        ]
+      },
+      "library": "H5P.MultiChoice 1.16",
+      "subContentId": "28825d6e-be6e-404c-be6d-344ab504e11c",
+      "metadata": {
+        "title": "Which one of the following berries are red?",
+        "license": "U",
+        "contentType": "Multiple Choice"
+      }
+    }
+  ],
+  "introPage": {
+    "showIntroPage": false,
+    "startButtonText": "Start Quiz",
+    "introduction": ""
+  },
+  "texts": {
+    "prevButton": "Previous",
+    "nextButton": "Next",
+    "finishButton": "Finish",
+    "textualProgress": "Question: @current of @total questions",
+    "questionLabel": "Question",
+    "jumpToQuestion": "Jump to question %d",
+    "readSpeakerProgress": "Question @current of @total",
+    "unansweredText": "Unanswered",
+    "answeredText": "Answered",
+    "currentQuestionText": "Current question"
+  },
+  "endGame": {
+    "showResultPage": true,
+    "solutionButtonText": "Show solution",
+    "finishButtonText": "Finish",
+    "showAnimations": false,
+    "skippable": false,
+    "skipButtonText": "Skip video",
+    "message": "Your result:",
+    "retryButtonText": "Retry",
+    "noResultMessage": "Finished",
+    "overallFeedback": [
+      {
+        "from": 0,
+        "to": 100,
+        "feedback": "You got @score points of @total possible."
+      }
+    ],
+    "oldFeedback": {
+      "successGreeting": "Congratulations!",
+      "successComment": "You did very well!",
+      "failGreeting": "Oh, no!",
+      "failComment": "This didn't go so well."
+    },
+    "showSolutionButton": true
+  },
+  "override": {
+    "showSolutionButton": "off",
+    "retryButton": "off",
+    "checkButton": true
+  },
+  "disableBackwardsNavigation": false,
+  "randomQuestions": false
+}

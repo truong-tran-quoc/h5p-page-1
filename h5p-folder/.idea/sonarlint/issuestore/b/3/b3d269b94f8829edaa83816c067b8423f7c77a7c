@@ -1,0 +1,9 @@
+
+ujavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 99 to the 15 allowed.(´çğ´úÿÿÿÿ
+Jjavascript:S1117".'view' is already declared in the upper scope.(ªÉ¸
+Vjavascript:S1117$"5'BlobBuilder' is already declared in the upper scope.(ºÜßÿÿÿÿÿ
+Wjavascript:S11211";Extract the assignment of "this.name" from this expression.(íÑïç
+\javascript:S6353B";Use concise character class syntax '\d' instead of '[0-9]'.(òÎ‘®ùÿÿÿÿ
+Sjavascript:S3972i"7Move this "if" to a new line or add the missing "else".(ªÌ©Â
+—javascript:S2681i"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(ªÌ©Â
+;javascript:S2990Ó"Remove the use of "this".(±¥™‘úÿÿÿÿ

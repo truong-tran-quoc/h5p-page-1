@@ -14,7 +14,7 @@ queryData.statements.forEach(populateStatements)
 
 function populateStatements(statement) {
     const newItem = document.createElement("li")
-    const newStatement = document.createTextNode(statement.actor.name + " " + statement.verb.display["en-US"] + " " + statement.object.definition.name["en-US"])
+    const newStatement = document.createTextNode(statement.actor.account.name + " " + statement.verb.display["en-US"] + " " + statement.object.definition.name["en-US"])
     newItem.appendChild(newStatement)
     document.getElementById("statement-list").appendChild(newItem)
 }

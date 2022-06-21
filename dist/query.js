@@ -4,10 +4,10 @@ const conf = {
 };
 ADL.XAPIWrapper.changeConfig(conf);
 const parameters = ADL.XAPIWrapper.searchParams();
-const collectSinceDate = new Date("Jun 20, 2022 00:00:00");
-const collectBeforeDate = new Date(" Jun 21, 2022 00:00:00");
-parameters["since"] = collectSinceDate.toISOString(); /* Returns statements since Jan 1, 2020 */
-parameters["until"] = collectBeforeDate.toISOString(); /* Returns statements from before Feb 1, 2020 */
+// const collectSinceDate = new Date("Jun 20, 2022 00:00:00");
+// const collectBeforeDate = new Date(" Jun 21, 2022 00:00:00");
+// parameters["since"] = collectSinceDate.toISOString(); /* Returns statements since Jan 1, 2020 */
+// parameters["until"] = collectBeforeDate.toISOString(); /* Returns statements from before Feb 1, 2020 */
 const queryData = ADL.XAPIWrapper.getStatements(parameters)
 
 queryData.statements.forEach(populateStatements)

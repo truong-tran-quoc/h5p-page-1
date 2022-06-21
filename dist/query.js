@@ -9,7 +9,7 @@ const collectBeforeDate = new Date(" Jun 21, 2022 00:00:00");
 parameters["since"] = collectSinceDate.toISOString(); /* Returns statements since Jan 1, 2020 */
 parameters["until"] = collectBeforeDate.toISOString(); /* Returns statements from before Feb 1, 2020 */
 const queryData = ADL.XAPIWrapper.getStatements(parameters)
-console.log(queryData.length);
+
 queryData.statements.forEach(populateStatements)
 
 function populateStatements(statement) {

@@ -5216,7 +5216,7 @@ ns.Editor = function (library, defaultParams, replace, iframeLoaded) {
             after();
             return exit;
         };
-        $.ajax({url: this.contentWindow.H5PEditor.getAjaxUrl(H5PIntegration.hubIsEnabled ? 'content-type-cache' : 'libraries')}).fail(function () {
+        $.ajax({url: this.contentWindow.H5PEditor.getAjaxUrl(H5PIntegration.hubIsEnabled ? 'content-type-cache' : 'libraries'),dataType:'json'}).fail(function () {
             $container.html('Error, unable to load libraries.');
         }).done(function (data) {
             if (data.success === false) {

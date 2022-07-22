@@ -5507,7 +5507,6 @@ var ns = H5PEditor;
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/h5p-x-api-event.js",
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/h5p-x-api.js",
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/h5p-content-type.js",
-                "https://combinatronics.com/h5p/h5p-editor-php-library/65d11bc1f64965285455905e6ef227c927341e64/scripts/h5peditor.js",
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/h5p-confirmation-dialog.js",
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/h5p-action-bar.js",
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/request-queue.js",

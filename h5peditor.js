@@ -197,14 +197,14 @@ ns.loadLibrary = function (libraryName, callback) {
 
       var url = getAjaxUrl('H5PLibrary/select', library);
       // Add content language to URL
-      if (ns.contentLanguage !== undefined) {
-        url += (url.indexOf('?') === -1 ? '?' : '&') + 'language=' + ns.contentLanguage;
-      }
-      // Add common fields default language to URL
-      const defaultLanguage = ns.defaultLanguage; // Avoid changes after sending AJAX
-      if (defaultLanguage !== undefined) {
-        url += (url.indexOf('?') === -1 ? '?' : '&') + 'default-language=' + defaultLanguage;
-      }
+//       if (ns.contentLanguage !== undefined) {
+//         url += (url.indexOf('?') === -1 ? '?' : '&') + 'language=' + ns.contentLanguage;
+//       }
+//       // Add common fields default language to URL
+//       const defaultLanguage = ns.defaultLanguage; // Avoid changes after sending AJAX
+//       if (defaultLanguage !== undefined) {
+//         url += (url.indexOf('?') === -1 ? '?' : '&') + 'default-language=' + defaultLanguage;
+//       }
 
       // Fire away!
       ns.$.ajax({

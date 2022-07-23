@@ -85,7 +85,7 @@ ns.loadJs = function (src, done) {
   }
 }
 getAjaxUrl = function (action, parameters) {
-        var url = "/" + action;
+        var url = "api/Samples/Newbie/TruongTQ/H5P/" + action;
         if (parameters !== undefined) {
             for (var key in parameters) {
                 url += (url.indexOf('?') === -1 ? '?' : '&') + 'filters[' + key + ']=' + parameters[key];

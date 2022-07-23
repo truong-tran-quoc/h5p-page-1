@@ -84,7 +84,15 @@ ns.loadJs = function (src, done) {
     document.head.appendChild(script);
   }
 }
-
+getAjaxUrl = function (action, parameters) {
+        var url = "/" + action;
+        if (parameters !== undefined) {
+            for (var key in parameters) {
+                url += (url.indexOf('?') === -1 ? '?' : '&') + 'filters[' + key + ']=' + parameters[key];
+            }
+        }
+        return url;
+};
 /**
  * Helper function invoked when a library is requested. Will add CSS and eval JS
  * if not already done.
@@ -187,7 +195,7 @@ ns.loadLibrary = function (libraryName, callback) {
       ns.loadedCallbacks[libraryName] = []; // Other callbacks to run once loaded.
       var library = ns.libraryFromString(libraryName);
 
-      var url = ns.getAjaxUrl('H5PLibrary/select', library);
+      var url = getAjaxUrl('H5PLibrary/select', library);
       // Add content language to URL
       if (ns.contentLanguage !== undefined) {
         url += (url.indexOf('?') === -1 ? '?' : '&') + 'language=' + ns.contentLanguage;

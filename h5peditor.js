@@ -88,7 +88,7 @@ getAjaxUrl = function (action, parameters) {
         var url = "api/Samples/Newbie/TruongTQ/H5P/" + action;
         if (parameters !== undefined) {
             for (var key in parameters) {
-                url += (url.indexOf('?') === -1 ? '?' : '&') + 'filters[' + key + ']=' + parameters[key];
+                url += (url.indexOf('?') === -1 ? '?' : '&') + key + '=' + parameters[key];
             }
         }
         return url;
@@ -195,7 +195,7 @@ ns.loadLibrary = function (libraryName, callback) {
       ns.loadedCallbacks[libraryName] = []; // Other callbacks to run once loaded.
       var library = ns.libraryFromString(libraryName);
 
-      var url = getAjaxUrl('H5PLibrary/select', library);
+      var url = getAjaxUrl('H5PLibrary/getLibrarySemantics', library);
       // Add content language to URL
 //       if (ns.contentLanguage !== undefined) {
 //         url += (url.indexOf('?') === -1 ? '?' : '&') + 'language=' + ns.contentLanguage;

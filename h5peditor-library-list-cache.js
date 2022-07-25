@@ -52,7 +52,7 @@ llc.getLibraries = function (libraries, handler, thisArg) {
     case 'requestThem':
       var ajaxParams = {
         type: "POST",
-        url: H5PEditor.getAjaxUrl('H5PLibrary/getLibraries'),
+        url: H5PEditor.getAjaxUrl('H5PLibraryVersion/getLibraries'),
         success: function (data) {
           llc.setLibraries(data, libraries);
           handler.call(thisArg, data);

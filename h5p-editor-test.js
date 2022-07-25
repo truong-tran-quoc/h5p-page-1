@@ -5487,7 +5487,6 @@ var ns = H5PEditor;
         ns.contentLanguage = Drupal.settings.h5peditor.language;
         ns.copyrightSemantics = Drupal.settings.h5peditor.copyrightSemantics;
         ns.metadataSemantics = Drupal.settings.h5peditor.metadataSemantics;
-        console.log(window.CKEDITOR);
         ns.assets = {
             css: [
                 'https://h5p.org/sites/all/modules/h5p_org/styles/h5p_org.css?rd9bjq',

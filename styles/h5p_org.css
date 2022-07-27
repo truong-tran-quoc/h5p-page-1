@@ -1,0 +1,7 @@
+.h5p-more-libraries, .form-item-h5p-type {
+    display: none
+}
+
+select[name=h5peditor-library] {
+    margin-bottom: 15px
+}

@@ -47,7 +47,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           // Add error data to event object
           uploadComplete.error = H5PEditor.t('core', 'fileToLarge');
         }
-
+        console.log(result);
         if (result !== undefined) {
           if (result.error !== undefined) {
             uploadComplete.error = result.error;
@@ -60,6 +60,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         if (uploadComplete.error === null) {
           // No problems, add response data to event object
           uploadComplete.data = result;
+          
         }
 
         // Allow the widget to process the result

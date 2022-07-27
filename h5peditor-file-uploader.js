@@ -66,7 +66,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         self.trigger('uploadComplete', uploadComplete);
       };
 
-      request.open('POST', H5PEditor.getAjaxUrl('files'), true);
+      request.open('POST', H5PEditor.getAjaxUrl('H5PContentCache/uploadImg'), true);
       request.send(formData);
       self.trigger('upload');
     };

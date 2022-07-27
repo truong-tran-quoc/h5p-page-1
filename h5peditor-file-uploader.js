@@ -47,7 +47,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           // Add error data to event object
           uploadComplete.error = H5PEditor.t('core', 'fileToLarge');
         }
-        console.log(result);
+        console.log(formData);
         if (result !== undefined) {
           if (result.error !== undefined) {
             uploadComplete.error = result.error;

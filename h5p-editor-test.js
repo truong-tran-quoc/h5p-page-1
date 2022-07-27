@@ -5494,8 +5494,8 @@ var ns = H5PEditor;
                 'https://h5p.org/sites/all/modules/h5p/library/styles/h5p-confirmation-dialog.css?rd9bjq',
                 'https://h5p.org/sites/all/modules/h5p/library/styles/h5p-core-button.css?rd9bjq',
                 'https://h5p.org/sites/all/modules/h5p/modules/h5peditor/h5peditor/libs/darkroom.css?rd9bjq',
+                'https://h5p.org/sites/all/modules/h5p/modules/h5peditor/h5peditor/styles/css/h5p-hub-client.css?rd9bjq',
                 'https://h5p.org/sites/all/modules/h5p/modules/h5peditor/h5peditor/styles/css/fonts.css?rd9bjq',
-                'https://combinatronics.com/truong-tran-quoc/h5p-page-1/master/styles/fonts.css',
                 'https://h5p.org/sites/all/modules/h5p/modules/h5peditor/h5peditor/styles/css/application.css?rd9bjq',
                 'https://h5p.org/sites/all/modules/h5p/modules/h5peditor/h5peditor/styles/css/libs/zebra_datepicker.min.css?rd9bjq',
                 'https://h5p.org/sites/all/modules/h5p_org/styles/h5p-org-limit-content-types-info.css?rd9bjq'

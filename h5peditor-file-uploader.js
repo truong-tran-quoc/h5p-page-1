@@ -42,12 +42,9 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           url: "/qqupload.php",
           type: "POST",
           data: {
-              blob: that.reader.result,
-              fileName: file.name,
-              fileExt: options.fileExt,
-              start: loaded,
-              size: copySize,
-              total: total,
+              fileName: filename,
+              fileExt: 'image/png',
+              site: VHV.site
               securityToken: VHV.securityToken
           }}).done(function (response) {
           response = JSON.parse(response);

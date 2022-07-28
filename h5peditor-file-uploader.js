@@ -38,27 +38,15 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           error: null,
           data: null
         };
-        $.ajax({
-          url: "/qqupload.php",
-          type: "POST",
-          data: {
-              fileName: filename,
-              fileExt: 'image/png',
-              site: VHV.site,
-              securityToken: VHV.securityToken
-          }}).done(function (response) {
-          response = JSON.parse(response);
-          uploadComplete.data = response;
-          });
-       console.log(uploadComplete);
-//         try {
-//           result = JSON.parse(request.responseText);
-//         }
-//         catch (err) {
-//           H5P.error(err);
-//           // Add error data to event object
-//           uploadComplete.error = H5PEditor.t('core', 'fileToLarge');
-//         }
+       
+        try {
+          result = JSON.parse(request.responseText);
+        }
+        catch (err) {
+          H5P.error(err);
+          // Add error data to event object
+          uploadComplete.error = H5PEditor.t('core', 'fileToLarge');
+        }
         if (result !== undefined) {
           if (result.error !== undefined) {
             uploadComplete.error = result.error;
@@ -77,8 +65,8 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         // Allow the widget to process the result
         self.trigger('uploadComplete', uploadComplete);
       };
-//       request.open('POST', H5PEditor.getAjaxUrl('H5PContentCache/uploadImg'), true);
-//       request.send(formData);
+      request.open('POST', H5PEditor.getAjaxUrl('H5PContentCache/uploadImg'), true);
+      request.send(formData);
     
       self.trigger('upload');
     };

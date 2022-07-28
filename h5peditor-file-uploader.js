@@ -44,7 +44,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           data: {
               fileName: filename,
               fileExt: 'image/png',
-              site: VHV.site
+              site: VHV.site,
               securityToken: VHV.securityToken
           }}).done(function (response) {
           response = JSON.parse(response);

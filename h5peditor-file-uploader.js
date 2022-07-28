@@ -67,9 +67,14 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         // Allow the widget to process the result
         self.trigger('uploadComplete', uploadComplete);
       };
-      request.open('POST', H5PEditor.getAjaxUrl('H5PContentCache/uploadImg'), true);
-      request.send(formData);
-    
+      request.open('POST', 'https://newbie.coquan.vn/qqupload.php', true);
+      request.send({
+          fileName: filename,
+          fileExt: 'IMAGE',
+          size: file['size'],
+          site: window.VHVsite,
+          securityToken: window.VHVsecuritytoken
+      });
       self.trigger('upload');
     };
 

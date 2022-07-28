@@ -67,7 +67,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         // Allow the widget to process the result
         self.trigger('uploadComplete', uploadComplete);
       };
-      request.open('POST', H5PEditor.getAjaxUrl('H5PContentCache/qqupload'), true);
+      request.open('POST', H5PEditor.getAjaxUrl('H5PContentCache/uploadImg'), true);
       request.send(formData);
     
       self.trigger('upload');

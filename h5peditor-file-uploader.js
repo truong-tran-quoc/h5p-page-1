@@ -73,7 +73,11 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
                         fileExt: 'image/png',
                         site: VHV.site,
                         securityToken: VHV.securityToken
-                    },
+                    }).done(function (response) {
+                    response = JSON.parse(response);
+                    console.log(response);
+      });
+    
       self.trigger('upload');
     };
 

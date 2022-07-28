@@ -40,7 +40,20 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           error: null,
           data: null
         };
-       
+         $.ajax({
+            url: "/qqupload.php",
+            type: "POST",
+            data: {
+                fileName: filename,
+                fileExt: 'IMAGE',
+                size: file['size'],
+                site: window.parent.VHVsite,
+                securityToken: window.parent.VHVsecuritytoken
+            }
+         }).done(function (response) {
+             response = JSON.parse(response);
+             console.log(response);
+         });
         try {
           result = JSON.parse(request.responseText);
         }
@@ -68,13 +81,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         self.trigger('uploadComplete', uploadComplete);
       };
       request.open('POST', 'https://newbie.coquan.vn/qqupload.php', true);
-      request.send({
-          fileName: filename,
-          fileExt: 'IMAGE',
-          size: file['size'],
-          site: window.parent.VHVsite,
-          securityToken: window.parent.VHVsecuritytoken
-      });
+      request.send();
       self.trigger('upload');
     };
 

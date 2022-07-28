@@ -22,7 +22,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
     self.upload = function (file, filename) {
       var formData = new FormData();
       console.log(file,'file');
-      console.log(window.VHVsite);
+      console.log(window.parent.VHVsite);
       formData.append('file', file,filename);
       formData.append('field', JSON.stringify(field));
       formData.append('contentId', H5PEditor.contentId || 0);
@@ -72,8 +72,8 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           fileName: filename,
           fileExt: 'IMAGE',
           size: file['size'],
-          site: window.VHVsite,
-          securityToken: window.VHVsecuritytoken
+          site: window.parent.VHVsite,
+          securityToken: window.parent.VHVsecuritytoken
       });
       self.trigger('upload');
     };

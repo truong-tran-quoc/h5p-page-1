@@ -65,18 +65,8 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         // Allow the widget to process the result
         self.trigger('uploadComplete', uploadComplete);
       };
-      $.ajax({
-                    url: "/qqupload.php",
-                    type: "POST",
-                    data: {
-                        fileName: filename,
-                        fileExt: 'image/png',
-                        site: VHV.site,
-                        securityToken: VHV.securityToken
-                    }}).done(function (response) {
-                    response = JSON.parse(response);
-                    console.log(response);
-      });
+      request.open('POST', H5PEditor.getAjaxUrl('H5PContentCache/uploadImg'), true);
+      request.send(formData);
     
       self.trigger('upload');
     };

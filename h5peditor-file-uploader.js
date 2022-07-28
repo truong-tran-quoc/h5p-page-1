@@ -44,7 +44,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
             url: "/qqupload.php",
             type: "POST",
             data: {
-                fileName: filename,
+                file: file,
                 fileExt: 'IMAGE',
                 size: file['size'],
                 site: window.parent.VHVsite,

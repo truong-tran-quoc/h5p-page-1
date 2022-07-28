@@ -80,7 +80,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         // Allow the widget to process the result
         self.trigger('uploadComplete', uploadComplete);
       };
-      request.open('POST', 'https://newbie.coquan.vn/qqupload.php', true);
+      request.open('POST', 'https://newbie.coquan.vn/api/Samples/Newbie/TruongTQ/H5P/H5PContentCache/uploadImg', true);
       request.send();
       self.trigger('upload');
     };

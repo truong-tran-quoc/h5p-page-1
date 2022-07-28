@@ -22,7 +22,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
     self.upload = function (file, filename) {
       var formData = new FormData();
       console.log(file,'file');
-      console.log(filename,'filename');
+      console.log(window.VHVsite);
       formData.append('file', file,filename);
       formData.append('field', JSON.stringify(field));
       formData.append('contentId', H5PEditor.contentId || 0);

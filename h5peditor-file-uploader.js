@@ -27,7 +27,6 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
 
       // Submit the form
       var request = new XMLHttpRequest();
-      request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       request.upload.onprogress = function (e) {
         if (e.lengthComputable) {
           self.trigger('uploadProgress', (e.loaded / e.total));
@@ -67,9 +66,8 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         // Allow the widget to process the result
         self.trigger('uploadComplete', uploadComplete);
       };
-
-      request.open('POST', "https://newbie.coquan.vn/qqupload.php", true);
-      request.send(`site=${VHV.site}&fileExt=IMAGE&securityToken=${VHV.securityToken}&qqfile=${filename}`);
+      request.open('POST', H5PEditor.getAjaxUrl('uploadImg'), true);
+      request.send(formData);
       self.trigger('upload');
     };
 

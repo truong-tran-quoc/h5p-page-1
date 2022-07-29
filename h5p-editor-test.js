@@ -5128,6 +5128,8 @@ H5P.OfflineRequestQueue = (function (RequestQueue, Dialog) {
 ns.Editor = function (library, defaultParams, replace, iframeLoaded) {
     var self = this;
     library = library && library != 0 ? library : '';
+    console.log(defaultParams,"params");
+    console.log(library,"lib");
     let parsedParams = {};
     try {
         parsedParams = JSON.parse(defaultParams);

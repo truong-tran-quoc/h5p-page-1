@@ -5574,6 +5574,7 @@ var ns = H5PEditor;
             if ($type.length && $type.filter(':checked').val() === 'upload') {
                 return;
             }
+            console.log(h5peditor);
             if (h5peditor !== undefined && !formIsUpdated) {
                 h5peditor.getContent(function (content) {
                     titleFormElement.value = content.title

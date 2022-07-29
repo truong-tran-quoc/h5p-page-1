@@ -5226,6 +5226,7 @@ ns.Editor = function (library, defaultParams, replace, iframeLoaded) {
                 return;
             }
             self.selector = new LibrarySelector(data, library, defaultParams);
+            console.log(self.selector);
             self.selector.appendTo($container.html(''));
             self.selector.on('resize', self.resize.bind(self));
             var relayEvent = function (event) {
@@ -5569,7 +5570,7 @@ var ns = H5PEditor;
                 $submitter.val(this.value);
             });
         }
-         console.log(h5peditor);
+      
         let formIsUpdated = false;
         $form.submit(function (event) {
             if ($type.length && $type.filter(':checked').val() === 'upload') {

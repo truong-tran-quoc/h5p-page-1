@@ -5510,7 +5510,7 @@ var ns = H5PEditor;
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/h5p-confirmation-dialog.js",
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/h5p-action-bar.js",
                 "https://combinatronics.com/h5p/h5p-php-library/db3da7a1441ae6c9ffacbb8110f41758c85beaa0/js/request-queue.js",
-                "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5p-hub-client.js",
+                "https://combinatronics.com/truong-tran-quoc/h5p-page-1/master/h5p-hub-client.js",
                 "https://combinatronics.com/truong-tran-quoc/h5p-page-1/master/h5peditor.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-semantic-structure.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-library-selector.js",

@@ -5523,7 +5523,6 @@ var ns = H5PEditor;
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-fullscreen-bar.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-form.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-text.js",
-                "https://combinatronics.com/truong-tran-quoc/h5p-page-1/master/h5peditor-init.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-html.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-number.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-textarea.js",

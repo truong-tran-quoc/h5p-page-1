@@ -5562,6 +5562,7 @@ var ns = H5PEditor;
                 $upload.hide();
                 if (h5peditor === undefined) {
                     h5peditor = new ns.Editor(library, $params.val(), $editor[0]);
+                    console.log(123);
                 }
                 $create.show();
             }

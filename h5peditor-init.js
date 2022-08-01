@@ -88,18 +88,12 @@
   };
 
   H5PEditor.getAjaxUrl = function (action, parameters) {
-    var url = H5PIntegration.editor.ajaxPath + action;
-
-    if (parameters !== undefined) {
-      var separator = url.indexOf('?') === -1 ? '?' : '&';
-      for (var property in parameters) {
-        if (parameters.hasOwnProperty(property)) {
-          url += separator + property + '=' + parameters[property];
-          separator = '&';
+    var url = Drupal.settings.h5peditor.ajaxPath + action;
+        if (parameters !== undefined) {
+            for (var key in parameters) {
+                url += '/' + parameters[key];
+            }
         }
-      }
-    }
-
-    return url;
+  return url;
   };
 })(H5P.jQuery, H5PEditor);

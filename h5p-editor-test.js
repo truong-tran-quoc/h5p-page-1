@@ -5328,6 +5328,7 @@ ns.Editor.prototype.getContent = function (submit, error) {
         }
         return;
     }
+    console.log(content);
     library = new iframeEditor.ContentType(content.library);
     const upgradeLibrary = iframeEditor.ContentType.getPossibleUpgrade(library, this.selector.libraries.libraries !== undefined ? this.selector.libraries.libraries : this.selector.libraries);
     if (upgradeLibrary) {

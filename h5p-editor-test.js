@@ -5297,12 +5297,10 @@ ns.Editor.prototype.getParams = function (notFormSubmit) {
 };
 ns.Editor.prototype.getContent = function (submit, error) {
     const iframeEditor = this.iframeWindow.H5PEditor;
-    console.log(this.selector);
     if (!this.selector.form) {
         if (error) {
             error('content-not-selected');
         }
-        console.log(123);
         return;
     }
     const content = {title: this.isMainTitleSet(), library: this.getLibrary(), params: this.getParams()};
@@ -5330,7 +5328,6 @@ ns.Editor.prototype.getContent = function (submit, error) {
         }
         return;
     }
-
     library = new iframeEditor.ContentType(content.library);
     const upgradeLibrary = iframeEditor.ContentType.getPossibleUpgrade(library, this.selector.libraries.libraries !== undefined ? this.selector.libraries.libraries : this.selector.libraries);
     if (upgradeLibrary) {
@@ -5561,11 +5558,9 @@ var ns = H5PEditor;
                 $upload.hide();
                 if (h5peditor === undefined) {
                     h5peditor = new ns.Editor(library, $params.val(), $editor[0]);
-                    
                 }
                 $create.show();
             }
-            console.log(h5peditor);
         }).change();
         const $form = $('#h5p-content-node-form');
         var $submitter = $('<input type="hidden" name="op"/>').appendTo($form);
@@ -5577,9 +5572,6 @@ var ns = H5PEditor;
         }
       
         let formIsUpdated = false;
-        h5peditor.getContent(function (content) {
-                   console.log(content);
-                });
         $form.submit(function (event) {
             if ($type.length && $type.filter(':checked').val() === 'upload') {
                 return;

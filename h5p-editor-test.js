@@ -5578,6 +5578,7 @@ var ns = H5PEditor;
             }
             if (h5peditor !== undefined && !formIsUpdated) {
                 h5peditor.getContent(function (content) {
+                    console.log(content);
                     titleFormElement.value = content.title
                     $library.val(content.library);
                     $params.val(content.params);

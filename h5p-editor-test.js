@@ -5328,6 +5328,7 @@ ns.Editor.prototype.getContent = function (submit, error) {
         }
         return;
     }
+    console.log(content);
     library = new iframeEditor.ContentType(content.library);
     const upgradeLibrary = iframeEditor.ContentType.getPossibleUpgrade(library, this.selector.libraries.libraries !== undefined ? this.selector.libraries.libraries : this.selector.libraries);
     if (upgradeLibrary) {
@@ -5463,7 +5464,7 @@ ns.wrap = function (prefix, content, suffix) {
     }
     return result;
 };
-;var H5PEditor = H5PEditor || {};
+var H5PEditor = H5PEditor || {};
 var ns = H5PEditor;
 (function ($) {
     ns.init = function () {
@@ -5578,7 +5579,6 @@ var ns = H5PEditor;
             }
             if (h5peditor !== undefined && !formIsUpdated) {
                 h5peditor.getContent(function (content) {
-                    console.log(content);
                     titleFormElement.value = content.title
                     $library.val(content.library);
                     $params.val(content.params);

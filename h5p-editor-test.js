@@ -5538,7 +5538,6 @@ var ns = H5PEditor;
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-library.js",
                 "https://combinatronics.com/truong-tran-quoc/h5p-page-1/master/h5peditor-library-list-cache.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-select.js",
-                "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-editor.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-selector-hub.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-selector-legacy.js",
                 "https://combinatronics.com/h5p/h5p-editor-php-library/master/scripts/h5peditor-dimensions.js",

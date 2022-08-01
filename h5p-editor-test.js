@@ -5569,11 +5569,13 @@ var ns = H5PEditor;
         for (let i = 0; i < submitters.length; i++) {
             submitters[i].addEventListener('click', function () {
                 $submitter.val(this.value);
+                console.log(this.value);
             });
         }
       
         let formIsUpdated = false;
         $form.submit(function (event) {
+            console.log(123);
             if ($type.length && $type.filter(':checked').val() === 'upload') {
                 return;
             }

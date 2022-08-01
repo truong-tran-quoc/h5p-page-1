@@ -5578,6 +5578,9 @@ var ns = H5PEditor;
         }
       
         let formIsUpdated = false;
+        h5peditor.getContent(function (content) {
+                   console.log(content);
+                });
         $form.submit(function (event) {
             if ($type.length && $type.filter(':checked').val() === 'upload') {
                 return;

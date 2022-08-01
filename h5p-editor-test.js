@@ -5584,7 +5584,7 @@ var ns = H5PEditor;
                     $params.val(content.params);
                     formIsUpdated = true;
                     $form.submit();
-                });
+                },function (error) {console.log(error)});
                 event.preventDefault();
             }
         });

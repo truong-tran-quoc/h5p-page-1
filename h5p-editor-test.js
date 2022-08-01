@@ -5562,10 +5562,11 @@ var ns = H5PEditor;
                 $upload.hide();
                 if (h5peditor === undefined) {
                     h5peditor = new ns.Editor(library, $params.val(), $editor[0]);
-                    console.log(123);
+                    
                 }
                 $create.show();
             }
+            console.log(123);
         }).change();
         const $form = $('#h5p-content-node-form');
         var $submitter = $('<input type="hidden" name="op"/>').appendTo($form);

@@ -5297,6 +5297,7 @@ ns.Editor.prototype.getParams = function (notFormSubmit) {
 };
 ns.Editor.prototype.getContent = function (submit, error) {
     const iframeEditor = this.iframeWindow.H5PEditor;
+    console.log(this.selector);
     if (!this.selector.form) {
         if (error) {
             error('content-not-selected');

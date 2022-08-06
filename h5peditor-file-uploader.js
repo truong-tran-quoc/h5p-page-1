@@ -78,7 +78,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         // Allow the widget to process the result
         self.trigger('uploadComplete', uploadComplete);
       };
-      request.open('POST', 'https://h5p.org/h5peditor/4e9f75f544549/0/files', true);
+      request.open('POST', 'https://newbie.coquan.vn/api/Samples/Newbie/TruongTQ/H5P/H5PContentCache/uploadImg', true);
       request.send(formData);
       self.trigger('upload');
     };

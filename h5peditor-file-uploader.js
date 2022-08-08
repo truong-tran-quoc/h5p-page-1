@@ -66,7 +66,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         self.trigger('uploadComplete', uploadComplete);
       };
 
-      request.open('POST', "https://newbie.coquan.vn/api/Samples/Newbie/TruongTQ/H5P/H5PContentCache/uploadImg", true);
+      request.open('POST', "https://newbie.coquan.vn/api/Samples/Newbie/TruongTQ/H5P/H5PContentCache/uploadImg?colomboDebug2=1", true);
       request.send(formData);
       self.trigger('upload');
     };

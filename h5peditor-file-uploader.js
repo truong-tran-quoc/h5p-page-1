@@ -21,7 +21,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
      */
     self.upload = function (file, filename) {
       var formData = new FormData();
-      formData.append('file', file,filename);
+      formData.append('file', file, filename);
       formData.append('field', JSON.stringify(field));
       formData.append('contentId', H5PEditor.contentId || 0);
 
@@ -38,20 +38,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           error: null,
           data: null
         };
-         $.ajax({
-            url: "/qqupload.php",
-            type: "POST",
-            data: {
-                file: file,
-                fileExt: 'IMAGE',
-                size: file['size'],
-                site: window.parent.VHVsite,
-                securityToken: window.parent.VHVsecuritytoken
-            }
-         }).done(function (response) {
-             response = JSON.parse(response);
-             console.log(response);
-         });
+
         try {
           result = JSON.parse(request.responseText);
         }
@@ -60,6 +47,7 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
           // Add error data to event object
           uploadComplete.error = H5PEditor.t('core', 'fileToLarge');
         }
+
         if (result !== undefined) {
           if (result.error !== undefined) {
             uploadComplete.error = result.error;
@@ -72,17 +60,16 @@ H5PEditor.FileUploader = (function ($, EventDispatcher) {
         if (uploadComplete.error === null) {
           // No problems, add response data to event object
           uploadComplete.data = result;
-          
         }
 
         // Allow the widget to process the result
         self.trigger('uploadComplete', uploadComplete);
       };
-      request.open('POST', 'https://newbie.coquan.vn/api/Samples/Newbie/TruongTQ/H5P/H5PContentCache/uploadImg', true);
+
+      request.open('POST', "https://newbie.coquan.vn/api/Samples/Newbie/TruongTQ/H5P/H5PContentCache/uploadImg", true);
       request.send(formData);
       self.trigger('upload');
     };
-
     /**
      * Upload the list of file objects.
      * TODO: Future improvement, iterate for multiple files

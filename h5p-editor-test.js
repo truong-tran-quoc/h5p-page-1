@@ -5671,7 +5671,7 @@ var ns = H5PEditor;
     showImportantInstructions: 'Show instructions',
     hideImportantInstructions: 'Hide important instructions',
     hide: 'Hide',
-    example: 'Example',
+    example: 'Ví dụ',
     createContentTabLabel: 'Create Content',
     uploadTabLabel: 'Upload',
     uploadPlaceholder: 'No file chosen',

@@ -5672,6 +5672,7 @@ var ns = H5PEditor;
     hideImportantInstructions: 'Ẩn các hướng dẫn quan trọng',
     hide: 'Ẩn',
     example: 'Ví dụ',
+    confirmLabel: 'Xác nhận',
     createContentTabLabel: 'Tạo nội dung',
     uploadTabLabel: 'Tải lên nội dung',
     uploadPlaceholder: 'Chưa có tập tin nào được chọn',

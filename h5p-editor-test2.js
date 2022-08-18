@@ -5564,7 +5564,7 @@ var ns = H5PEditor;
             }
         }).change();
         
-        const $form = $('#form{mid}');
+        const $form = $('#h5p-content-node-form');
         var $submitter = $('<input type="hidden" name="op"/>').appendTo($form);
         const submitters = document.getElementsByName('op');
         for (let i = 0; i < submitters.length; i++) {

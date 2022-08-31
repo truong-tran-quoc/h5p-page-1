@@ -103,9 +103,7 @@ ns.Library.prototype.appendTo = function ($wrapper) {
   const id = ns.getNextFieldId(this.field);
 
   if (this.field.label !== 0 && this.field.label !== undefined) {
-    if(this.field.label === 'Title'){
-      this.field.label = 'Tiêu đề';
-    }
+    console.log(this.field.label);
     html += '<div class="h5p-editor-flex-wrapper">' +
         '<label class="h5peditor-label-wrapper" for="' + id + '">' +
           '<span class="h5peditor-label' +
